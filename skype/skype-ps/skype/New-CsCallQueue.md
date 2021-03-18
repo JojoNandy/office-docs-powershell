@@ -476,6 +476,21 @@ Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
+### -OboResourceAccountIds
+This field takes list of Guids which represents On-Behalf of resource account ids to be added in the given CallQueue configuration. The given Guid must represent a resource account associated to a valid phone number for a successful result.
+
+```yaml
+Type: List
+Parameter Sets: (All)
+Aliases: 
+Applicable: Skype for Business Online
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
 
 ### CommonParameters
 This cmdlet supports the common parameters: `-Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (https://go.microsoft.com/fwlink/?LinkID=113216).`
